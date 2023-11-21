@@ -22,7 +22,11 @@ const Home = () => {
             }`}
           />
           <div className="Movie-date">Rilis : {movie.release_date}</div>
+<<<<<<< HEAD
           <div className="Movie-rate">{movie.vote_average}</div>
+=======
+          <div className="Movie-rate">{movie.vote_average.toFixed(1)}</div>
+>>>>>>> 9949990 (update vitur rate)
         </div>
       );
     });
